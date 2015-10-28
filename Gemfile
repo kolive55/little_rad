@@ -4,6 +4,7 @@ source 'http://rubygems.org'
 ruby '2.1.2'
 gem "middleman", "~> 3.4.0"
 gem "middleman-blog", "~> 3.5.3"
+gem 'middleman-deploy'
 gem 'rack-contrib'
 gem 'rake'
 gem 'bitters'
