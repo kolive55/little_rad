@@ -10,6 +10,7 @@ gem 'rake'
 gem 'bitters'
 gem 'bourbon'
 gem 'neat'
+gem 'middleman-gh-pages'
 
 
 # For feed.xml.builder
