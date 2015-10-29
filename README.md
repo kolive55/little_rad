@@ -1,2 +1,2 @@
 # Little Rad(io)
-A simple blog built using Middlman and Bourbon
+A simple blog built using Middleman and Bourbon
