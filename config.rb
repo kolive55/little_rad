@@ -1,10 +1,8 @@
 ###
 # Blog settings
 ###
-
-# Time.zone = "UTC"
-
 activate :blog do |blog|
+activate :directory_indexes
   # This will add a prefix to all links, template references and source paths
   # blog.prefix = "blog"
 
@@ -18,7 +16,7 @@ activate :blog do |blog|
   # blog.year_link = "{year}.html"
   # blog.month_link = "{year}/{month}.html"
   # blog.day_link = "{year}/{month}/{day}.html"
-  # blog.default_extension = ".markdown"
+  blog.default_extension = ".markdown"
 
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"

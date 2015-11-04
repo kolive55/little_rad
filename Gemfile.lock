@@ -90,6 +90,8 @@ GEM
       middleman-core (>= 3.2)
       net-sftp
       ptools
+    middleman-gh-pages (0.0.3)
+      rake (> 0.9.3)
     middleman-livereload (3.4.3)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
@@ -163,6 +165,7 @@ DEPENDENCIES
   middleman (~> 3.4.0)
   middleman-blog (~> 3.5.3)
   middleman-deploy
+  middleman-gh-pages
   middleman-livereload
   neat
   rack-contrib
